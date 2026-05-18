@@ -15,6 +15,7 @@ This repository contains learning materials for Playwright and JavaScript basics
 - `chapter_03_identifier_Literals/` - JavaScript identifier rules, comments, and VS Code shortcuts
 - `chapter_04_javascriptBasis/` - JavaScript variables, functions, let/const, and hoisting
 - `chapter_05_literals/` - JavaScript literals, null/undefined, strings, template literals, and number types
+- `chapter_06_operators/` - JavaScript operators: assignment, arithmetic, modulus, exponentiation, compound, comparison, logical, and string concatenation
 
 ## Notes
 
