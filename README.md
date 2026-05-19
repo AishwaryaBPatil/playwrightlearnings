@@ -8,25 +8,103 @@
 
 This repository contains learning materials for Playwright and JavaScript basics.
 
-## Structure
+## Project Structure
 
-- `chapter_01_Basics/` - Basic Playwright examples and first scripts
-- `chapter_02_JavaScript_Concepts/` - JavaScript concepts and fundamentals
-- `chapter_03_identifier_Literals/` - JavaScript identifier rules, comments, and VS Code shortcuts
-- `chapter_04_javascriptBasis/` - JavaScript variables, functions, let/const, and hoisting
-- `chapter_05_literals/` - JavaScript literals, null/undefined, strings, template literals, and number types
-- `chapter_06_operators/` - JavaScript operators: assignment, arithmetic, modulus, exponentiation, compound, comparison, logical, string concatenation, ternary, typeof, and increment/decrement
+```
+LearnPlaywright/
+├── chapter_01_Basics/
+│   ├── 01_basics.js
+│   ├── 02_JS.js
+│   └── 03_JS_commands.js
+├── chapter_02_JavaScript_Concepts/
+│   └── javascript_basics.js
+├── chapter_03_identifier_Literals/
+│   ├── 01_identifier_rules.js
+│   ├── 02_Comments.js
+│   └── VS_Code_Keyword_Shortcut_windows.md
+├── chapter_04_javascriptBasis/
+│   ├── 01_variable.js
+│   ├── 02_functions.js
+│   ├── 03_let.js
+│   ├── 04_const.js
+│   ├── 05_Hoisting.js
+│   ├── 06_Hoisting_fn.js
+│   ├── 07_let_hoisting.js
+│   ├── 08_let_hosting_block.js
+│   ├── 09_let_const.js
+│   └── 10_jr_QA.js
+├── chapter_05_literals/
+│   ├── 01_literals.js
+│   ├── 02_null_undefined.js
+│   ├── 03_null.js
+│   ├── 04_literalAll.js
+│   ├── 05_literal_number_all.js
+│   ├── 06_string.js
+│   ├── 07_template_literal.js
+│   └── 08_backtik_single_double.js
+├── chapter_06_operators/
+│   ├── 01_Assignment.js
+│   ├── 02_Arithmatic.js
+│   ├── 03_Modulus_OP.js
+│   ├── 04_exponentiation_OP.js
+│   ├── 05_Compound_OP.js
+│   ├── 06_Comparison_OP.js
+│   ├── 07_comparison_Strict_loose.js
+│   ├── 08_IQ_loose_Strict.js
+│   ├── 09_confusing_comaprisons.js
+│   ├── 10_logical_OP.js
+│   ├── 11_string_con_OP.js
+│   ├── 12_null.js
+│   ├── 13.ternary_OP.js
+│   ├── 14_typeof_OP.js
+│   └── 15_increment_becrement_OP.js
+└── README.md
+```
 
-## Notes
+## Chapter Descriptions
 
-- The repository is organized by chapter folders to make it easy to follow lessons.
-- `chapter_03_identifier_Literals/` includes a new `VS_Code_Keyword_Shortcut_windows.md` file with common VS Code shortcuts for Windows.
+| Chapter | Description |
+|---------|-------------|
+| **Chapter 01 - Basics** | Introduction to Playwright, basic setup, and first scripts |
+| **Chapter 02 - JavaScript Concepts** | Core JavaScript concepts and fundamentals |
+| **Chapter 03 - Identifier & Literals** | JavaScript identifier naming rules, comments, and VS Code keyboard shortcuts |
+| **Chapter 04 - JavaScript Basis** | Variables, functions, let/const, hoisting behavior, and block scope |
+| **Chapter 05 - Literals** | JavaScript literals, null vs undefined, strings, template literals, and number types |
+| **Chapter 06 - Operators** | All JavaScript operators: assignment, arithmetic, modulus, exponentiation, compound, comparison, logical, string concatenation, ternary, typeof, and increment/decrement |
+
+## Topics Covered
+
+- Playwright basics and test commands
+- JavaScript variables (`var`, `let`, `const`)
+- Functions and hoisting
+- Block scope and temporal dead zone (TDZ)
+- Literals and data types
+- Strings and template literals
+- Null vs Undefined
+- Arithmetic, comparison, and logical operators
+- Ternary and typeof operators
+- Increment/decrement operators
+- VS Code keyboard shortcuts for Windows
+
+## Running Examples
+
+| Command | Description |
+|---------|-------------|
+| `node chapter_01_Basics/01_basics.js` | Run basic Playwright example |
+| `node chapter_02_JavaScript_Concepts/javascript_basics.js` | Run JavaScript basics |
+| `node chapter_03_identifier_Literals/01_identifier_rules.js` | Run identifier rules example |
+| `node chapter_04_javascriptBasis/01_variable.js` | Run variable example |
+| `node chapter_05_literals/01_literals.js` | Run literals example |
+| `node chapter_06_operators/01_Assignment.js` | Run assignment operator example |
+| `node chapter_06_operators/02_Arithmatic.js` | Run arithmetic operator example |
+| `node chapter_06_operators/10_logical_OP.js` | Run logical operator example |
+| `node chapter_06_operators/13.ternary_OP.js` | Run ternary operator example |
 
 ## Usage
 
 1. Open the repository in VS Code.
 2. Explore chapter folders for examples and practice files.
-3. Run Playwright or JavaScript examples from the terminal as needed.
+3. Run any JavaScript file using `node <file-path>` from the terminal.
 
 ## License
 
