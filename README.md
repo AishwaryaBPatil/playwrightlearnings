@@ -1,6 +1,6 @@
 # LearnPlaywright
 
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white).
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
@@ -15,7 +15,7 @@ This repository contains learning materials for Playwright and JavaScript basics
 - `chapter_03_identifier_Literals/` - JavaScript identifier rules, comments, and VS Code shortcuts
 - `chapter_04_javascriptBasis/` - JavaScript variables, functions, let/const, and hoisting
 - `chapter_05_literals/` - JavaScript literals, null/undefined, strings, template literals, and number types
-- `chapter_06_operators/` - JavaScript operators: assignment, arithmetic, modulus, exponentiation, compound, comparison, logical, and string concatenation
+- `chapter_06_operators/` - JavaScript operators: assignment, arithmetic, modulus, exponentiation, compound, comparison, logical, string concatenation, ternary, typeof, and increment/decrement
 
 ## Notes
 
