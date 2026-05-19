@@ -8,6 +8,49 @@
 
 This repository contains learning materials for Playwright and JavaScript basics.
 
+## Prerequisites
+
+Before getting started, ensure you have the following installed:
+
+| Tool | Description | Download Link |
+|------|-------------|---------------|
+| **Node.js** | JavaScript runtime required to run examples | [nodejs.org](https://nodejs.org/) |
+| **VS Code** | Recommended code editor with built-in terminal | [code.visualstudio.com](https://code.visualstudio.com/) |
+
+Verify installation:
+```bash
+node --version
+npm --version
+```
+
+## How to Use This Repository
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/AishwaryaBPatil/playwrightlearnings.git
+cd playwrightlearnings
+```
+
+### Open in VS Code
+
+1. Open VS Code
+2. Go to **File > Open Folder** (or press `Ctrl+K Ctrl+O`)
+3. Select the `playwrightlearnings` folder
+4. Open the integrated terminal with `` Ctrl+` ``
+
+### Run Examples
+
+Run any JavaScript file directly from the VS Code terminal:
+
+```bash
+node chapter_01_Basics/01_basics.js
+node chapter_04_javascriptBasis/01_variable.js
+node chapter_06_operators/02_Arithmatic.js
+```
+
+Alternatively, use the **Code Runner** extension in VS Code to run files with a single click (right-click > Run Code or press `Ctrl+Alt+N`).
+
 ## Project Structure
 
 ```
@@ -63,14 +106,23 @@ LearnPlaywright/
 
 ## Chapter Descriptions
 
-| Chapter | Description |
-|---------|-------------|
-| **Chapter 01 - Basics** | Introduction to Playwright, basic setup, and first scripts |
-| **Chapter 02 - JavaScript Concepts** | Core JavaScript concepts and fundamentals |
-| **Chapter 03 - Identifier & Literals** | JavaScript identifier naming rules, comments, and VS Code keyboard shortcuts |
-| **Chapter 04 - JavaScript Basis** | Variables, functions, let/const, hoisting behavior, and block scope |
-| **Chapter 05 - Literals** | JavaScript literals, null vs undefined, strings, template literals, and number types |
-| **Chapter 06 - Operators** | All JavaScript operators: assignment, arithmetic, modulus, exponentiation, compound, comparison, logical, string concatenation, ternary, typeof, and increment/decrement |
+**Chapter 01 - Basics**
+Introduction to Playwright, basic setup, and writing your first scripts.
+
+**Chapter 02 - JavaScript Concepts**
+Core JavaScript concepts and fundamentals to build a strong foundation.
+
+**Chapter 03 - Identifier & Literals**
+JavaScript identifier naming rules, how to write comments, and useful VS Code keyboard shortcuts for Windows.
+
+**Chapter 04 - JavaScript Basis**
+Deep dive into variables (`var`, `let`, `const`), functions, hoisting behavior, block scope, and the temporal dead zone (TDZ).
+
+**Chapter 05 - Literals**
+Understanding JavaScript literals, the difference between null and undefined, strings, template literals, and number types.
+
+**Chapter 06 - Operators**
+Complete coverage of JavaScript operators including assignment, arithmetic, modulus, exponentiation, compound, comparison (strict vs loose), logical, string concatenation, ternary, typeof, and increment/decrement operators.
 
 ## Topics Covered
 
@@ -100,51 +152,6 @@ LearnPlaywright/
 | `node chapter_06_operators/10_logical_OP.js` | Run logical operator example |
 | `node chapter_06_operators/13.ternary_OP.js` | Run ternary operator example |
 
-## Prerequisites
-
-Before getting started, ensure you have the following installed:
-
-| Tool | Description | Download Link |
-|------|-------------|---------------|
-| **Node.js** | JavaScript runtime required to run examples | [nodejs.org](https://nodejs.org/) |
-| **VS Code** | Recommended code editor with built-in terminal | [code.visualstudio.com](https://code.visualstudio.com/) |
-
-Verify installation:
-```bash
-node --version
-npm --version
-```
-
-## How to Use This Repository
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/AishwaryaBPatil/playwrightlearnings.git
-cd playwrightlearnings
-```
-
-### Open in VS Code
-
-1. Open VS Code
-2. Go to **File > Open Folder** (or press `Ctrl+K Ctrl+O`)
-3. Select the `playwrightlearnings` folder
-4. Open the integrated terminal with `` Ctrl+` ``
-
-### Run Examples
-
-Run any JavaScript file directly from the VS Code terminal:
-
-```bash
-node chapter_01_Basics/01_basics.js
-node chapter_04_javascriptBasis/01_variable.js
-node chapter_06_operators/02_Arithmatic.js
-```
-
-Alternatively, use the **Code Runner** extension in VS Code to run files with a single click (right-click > Run Code or press `Ctrl+Alt+N`).
-
 ## License
 
-This repository is for **educational purposes only**. The code and materials are provided as-is for learning and personal use. Redistribution or commercial use is not permitted without explicit permission.
-
-Copyright (c) 2025 Aishwarya Patil
+This repository is for educational purposes only.
