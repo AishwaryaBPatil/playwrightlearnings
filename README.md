@@ -100,12 +100,51 @@ LearnPlaywright/
 | `node chapter_06_operators/10_logical_OP.js` | Run logical operator example |
 | `node chapter_06_operators/13.ternary_OP.js` | Run ternary operator example |
 
-## Usage
+## Prerequisites
 
-1. Open the repository in VS Code.
-2. Explore chapter folders for examples and practice files.
-3. Run any JavaScript file using `node <file-path>` from the terminal.
+Before getting started, ensure you have the following installed:
+
+| Tool | Description | Download Link |
+|------|-------------|---------------|
+| **Node.js** | JavaScript runtime required to run examples | [nodejs.org](https://nodejs.org/) |
+| **VS Code** | Recommended code editor with built-in terminal | [code.visualstudio.com](https://code.visualstudio.com/) |
+
+Verify installation:
+```bash
+node --version
+npm --version
+```
+
+## How to Use This Repository
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/AishwaryaBPatil/playwrightlearnings.git
+cd playwrightlearnings
+```
+
+### Open in VS Code
+
+1. Open VS Code
+2. Go to **File > Open Folder** (or press `Ctrl+K Ctrl+O`)
+3. Select the `playwrightlearnings` folder
+4. Open the integrated terminal with `` Ctrl+` ``
+
+### Run Examples
+
+Run any JavaScript file directly from the VS Code terminal:
+
+```bash
+node chapter_01_Basics/01_basics.js
+node chapter_04_javascriptBasis/01_variable.js
+node chapter_06_operators/02_Arithmatic.js
+```
+
+Alternatively, use the **Code Runner** extension in VS Code to run files with a single click (right-click > Run Code or press `Ctrl+Alt+N`).
 
 ## License
 
-This repository does not include a formal license.
+This repository is for **educational purposes only**. The code and materials are provided as-is for learning and personal use. Redistribution or commercial use is not permitted without explicit permission.
+
+Copyright (c) 2025 Aishwarya Patil
