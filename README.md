@@ -100,7 +100,24 @@ LearnPlaywright/
 │   ├── 12_null.js
 │   ├── 13.ternary_OP.js
 │   ├── 14_typeof_OP.js
-│   └── 15_increment_becrement_OP.js
+│   └── 15_increment_decrement_OP.js
+├── chapter_07_if_else/
+│   ├── 01_basic_ifElse.js
+│   ├── 02_ifelse_ifelse.js
+│   ├── 03_RealIf_else.js
+│   ├── 04_API_IFELSE.js
+│   ├── 05_IQ_IFELSE.js
+│   ├── 06_Real_IF_else.js
+│   ├── 07_IQ.js
+│   ├── 08_single_if.js
+│   ├── 09_if_even_odd.js
+│   ├── 10_gradeCalculator.js
+│   ├── 11_leap_year.js
+│   ├── 12_http_statuscode.js
+│   ├── 13_passfail_verdict.js
+│   ├── 14_Bug_severity.js
+│   ├── 15_BuildHealth_reporter.js
+│   └── 16_Login_Logout.js
 └── README.md
 ```
 
@@ -124,6 +141,9 @@ Understanding JavaScript literals, the difference between null and undefined, st
 **Chapter 06 - Operators**
 Complete coverage of JavaScript operators including assignment, arithmetic, modulus, exponentiation, compound, comparison (strict vs loose), logical, string concatenation, ternary, typeof, and increment/decrement operators.
 
+**Chapter 07 - If/Else**
+Conditional statements including basic if/else, nested conditions, real-world QA scenarios, API status checks, grade calculators, and login/logout flows.
+
 ## Topics Covered
 
 - Playwright basics and test commands
@@ -136,6 +156,8 @@ Complete coverage of JavaScript operators including assignment, arithmetic, modu
 - Arithmetic, comparison, and logical operators
 - Ternary and typeof operators
 - Increment/decrement operators
+- If/else and nested conditional statements
+- Real-world QA scenarios with conditionals
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -151,6 +173,8 @@ Complete coverage of JavaScript operators including assignment, arithmetic, modu
 | `node chapter_06_operators/02_Arithmatic.js` | Run arithmetic operator example |
 | `node chapter_06_operators/10_logical_OP.js` | Run logical operator example |
 | `node chapter_06_operators/13.ternary_OP.js` | Run ternary operator example |
+| `node chapter_07_if_else/01_basic_ifElse.js` | Run basic if/else example |
+| `node chapter_07_if_else/10_gradeCalculator.js` | Run grade calculator example |
 
 ## License
 

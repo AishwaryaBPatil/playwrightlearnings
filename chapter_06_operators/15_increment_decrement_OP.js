@@ -1,6 +1,7 @@
 let a = 5;
 console.log(a++); // 5 (post-increment: returns the value before incrementing)
 console.log(++a);
+
 console.log(a++ + ++a - --a + a-- + ++a);
 console.log(a++ + ++a - --a + a-- + a++);
 console.log(a);
@@ -12,6 +13,7 @@ console.log(a);
 
 let x = 10;
 console.log(x++ + ++x);
+
 
 
 
