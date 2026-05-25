@@ -118,6 +118,20 @@ LearnPlaywright/
 │   ├── 14_Bug_severity.js
 │   ├── 15_BuildHealth_reporter.js
 │   └── 16_Login_Logout.js
+├── chapter_08_SwitchStatement/
+│   ├── 01_switch.js
+│   ├── 02_no_break.js
+│   ├── 03_switchdefault.js
+│   ├── 04_realtimeEX.js
+│   ├── 05_switchgroups.js
+│   ├── 06_IQ.js
+│   ├── 07_IQ2.js
+│   ├── 08_IQ3.js
+│   └── 09_IQ4.js
+├── chapter_09_userInput/
+│   ├── 01_userinput.js
+│   ├── 02_nodeReadline.js
+│   └── 03_prompt_sync.js
 └── README.md
 ```
 
@@ -144,6 +158,12 @@ Complete coverage of JavaScript operators including assignment, arithmetic, modu
 **Chapter 07 - If/Else**
 Conditional statements including basic if/else, nested conditions, real-world QA scenarios, API status checks, grade calculators, and login/logout flows.
 
+**Chapter 08 - Switch Statement**
+Switch statements, case fall-through behavior, default cases, grouping cases, and interview-style questions.
+
+**Chapter 09 - User Input**
+Handling user input in Node.js using readline, prompt-sync, and other input methods.
+
 ## Topics Covered
 
 - Playwright basics and test commands
@@ -158,6 +178,8 @@ Conditional statements including basic if/else, nested conditions, real-world QA
 - Increment/decrement operators
 - If/else and nested conditional statements
 - Real-world QA scenarios with conditionals
+- Switch statements and case fall-through
+- User input handling with readline and prompt-sync
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -175,6 +197,8 @@ Conditional statements including basic if/else, nested conditions, real-world QA
 | `node chapter_06_operators/13.ternary_OP.js` | Run ternary operator example |
 | `node chapter_07_if_else/01_basic_ifElse.js` | Run basic if/else example |
 | `node chapter_07_if_else/10_gradeCalculator.js` | Run grade calculator example |
+| `node chapter_08_SwitchStatement/01_switch.js` | Run switch statement example |
+| `node chapter_09_userInput/02_nodeReadline.js` | Run readline input example |
 
 ## License
 
