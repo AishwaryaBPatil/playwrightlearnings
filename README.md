@@ -132,6 +132,8 @@ LearnPlaywright/
 │   ├── 01_userinput.js
 │   ├── 02_nodeReadline.js
 │   └── 03_prompt_sync.js
+├── chapter_10_loops/
+│   └── 01_forLoop.js
 └── README.md
 ```
 
@@ -164,6 +166,9 @@ Switch statements, case fall-through behavior, default cases, grouping cases, an
 **Chapter 09 - User Input**
 Handling user input in Node.js using readline, prompt-sync, and other input methods.
 
+**Chapter 10 - Loops**
+JavaScript loops including for loops, while loops, do-while loops, and iteration patterns.
+
 ## Topics Covered
 
 - Playwright basics and test commands
@@ -180,6 +185,7 @@ Handling user input in Node.js using readline, prompt-sync, and other input meth
 - Real-world QA scenarios with conditionals
 - Switch statements and case fall-through
 - User input handling with readline and prompt-sync
+- For loops and iteration patterns
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -199,6 +205,7 @@ Handling user input in Node.js using readline, prompt-sync, and other input meth
 | `node chapter_07_if_else/10_gradeCalculator.js` | Run grade calculator example |
 | `node chapter_08_SwitchStatement/01_switch.js` | Run switch statement example |
 | `node chapter_09_userInput/02_nodeReadline.js` | Run readline input example |
+| `node chapter_10_loops/01_forLoop.js` | Run for loop example |
 
 ## License
 
