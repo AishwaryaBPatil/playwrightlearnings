@@ -117,7 +117,9 @@ LearnPlaywright/
 │   ├── 13_passfail_verdict.js
 │   ├── 14_Bug_severity.js
 │   ├── 15_BuildHealth_reporter.js
-│   └── 16_Login_Logout.js
+│   ├── 16_Login_Logout.js
+│   ├── 17_triangle.js
+│   └── README.md
 ├── chapter_08_SwitchStatement/
 │   ├── 01_switch.js
 │   ├── 02_no_break.js
@@ -133,7 +135,30 @@ LearnPlaywright/
 │   ├── 02_nodeReadline.js
 │   └── 03_prompt_sync.js
 ├── chapter_10_loops/
-│   └── 01_forLoop.js
+│   ├── 01_forLoop.js
+│   ├── 02_for_loop.js
+│   ├── 03_for_loop3.js
+│   ├── 04_IQ.js
+│   ├── 05_whileloop.js
+│   ├── 06_Do_while.js
+│   ├── 07_Do_while.js
+│   ├── 08_IQ.js
+│   ├── 09_IQ.js
+│   ├── 10_continue.js
+│   ├── 11_IQ.js
+│   └── README.md
+├── chapter_11_Arrays/
+│   ├── 01_array.js
+│   ├── 03_Access_array.js
+│   ├── 04_arrays.Adding_removing.js
+│   ├── 05_arrays_splice_indexing.js
+│   └── 06_realexample.js
+├── chapter_Basics_01/
+│   └── 01_basics.js
+├── SimpleJavaProject/
+│   └── src/
+│       └── Main.java
+├── 01_arrays.js
 └── README.md
 ```
 
@@ -158,7 +183,7 @@ Understanding JavaScript literals, the difference between null and undefined, st
 Complete coverage of JavaScript operators including assignment, arithmetic, modulus, exponentiation, compound, comparison (strict vs loose), logical, string concatenation, ternary, typeof, and increment/decrement operators.
 
 **Chapter 07 - If/Else**
-Conditional statements including basic if/else, nested conditions, real-world QA scenarios, API status checks, grade calculators, and login/logout flows.
+Conditional statements including basic if/else, nested conditions, real-world QA scenarios, API status checks, grade calculators, login/logout flows, and triangle classification.
 
 **Chapter 08 - Switch Statement**
 Switch statements, case fall-through behavior, default cases, grouping cases, and interview-style questions.
@@ -167,7 +192,10 @@ Switch statements, case fall-through behavior, default cases, grouping cases, an
 Handling user input in Node.js using readline, prompt-sync, and other input methods.
 
 **Chapter 10 - Loops**
-JavaScript loops including for loops, while loops, do-while loops, and iteration patterns.
+JavaScript loops including for loops, while loops, do-while loops, continue statements, and interview-style loop problems.
+
+**Chapter 11 - Arrays**
+Array creation using literals, `Array()` constructor, `Array.of()`, and `Array.from()`, accessing elements, adding/removing items, splice, indexing, and real-world examples.
 
 ## Topics Covered
 
@@ -185,7 +213,11 @@ JavaScript loops including for loops, while loops, do-while loops, and iteration
 - Real-world QA scenarios with conditionals
 - Switch statements and case fall-through
 - User input handling with readline and prompt-sync
-- For loops and iteration patterns
+- For loops, while loops, and do-while loops
+- Continue statements and loop control flow
+- Loop interview questions and patterns
+- Arrays: creation, access, adding/removing elements
+- Array methods: splice, indexing, `Array.of()`, `Array.from()`
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -205,7 +237,15 @@ JavaScript loops including for loops, while loops, do-while loops, and iteration
 | `node chapter_07_if_else/10_gradeCalculator.js` | Run grade calculator example |
 | `node chapter_08_SwitchStatement/01_switch.js` | Run switch statement example |
 | `node chapter_09_userInput/02_nodeReadline.js` | Run readline input example |
+| `node chapter_07_if_else/17_triangle.js` | Run triangle classifier example |
 | `node chapter_10_loops/01_forLoop.js` | Run for loop example |
+| `node chapter_10_loops/05_whileloop.js` | Run while loop example |
+| `node chapter_10_loops/06_Do_while.js` | Run do-while loop example |
+| `node chapter_10_loops/10_continue.js` | Run continue statement example |
+| `node chapter_11_Arrays/01_array.js` | Run array creation example |
+| `node chapter_11_Arrays/03_Access_array.js` | Run array access example |
+| `node chapter_11_Arrays/04_arrays.Adding_removing.js` | Run array add/remove example |
+| `node 01_arrays.js` | Run array literals and constructor example |
 
 ## License
 
