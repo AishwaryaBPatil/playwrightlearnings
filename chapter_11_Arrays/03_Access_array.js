@@ -3,6 +3,7 @@ console.log(test[0]);
 console.log(test[1]);
 console.log(test[2]);
 console.log(test.at(-1));
+console.log(test.at(-2));
 
 //modify
 test[1] = "blocked";

@@ -149,16 +149,46 @@ LearnPlaywright/
 │   └── README.md
 ├── chapter_11_Arrays/
 │   ├── 01_array.js
+│   ├── 02.array.js
 │   ├── 03_Access_array.js
 │   ├── 04_arrays.Adding_removing.js
 │   ├── 05_arrays_splice_indexing.js
-│   └── 06_realexample.js
+│   ├── 06_realexample.js
+│   ├── 07_searching.js
+│   ├── 08_iterate.js
+│   ├── 09_transformArray.js
+│   ├── 10_array.js
+│   ├── 11_slice_combining.js
+│   ├── 12_concat.js
+│   └── 13_arrays._checking.js
+├── chapter_12_Functions/
+│   ├── 01_functons.js
+│   ├── 02_basicFunction.js
+│   ├── 03_function_with_para_noreturn.js
+│   ├── 04_without_param_bt_with_returntype.js
+│   ├── 05_both_param_returntype.js
+│   ├── 06_template_literals.js
+│   ├── 07_funcion_expresssii.js
+│   ├── 08_arrowfunction.js
+│   ├── 09_arrow_function_realex.js
+│   ├── 10_IIFE.js
+│   ├── 11_default_param_functio.js
+│   ├── 12_IQ.js
+│   ├── 13_rest_param_fu.js
+│   ├── 14_IQ.js
+│   ├── 15_spead.js
+│   ├── 16_scope.js
+│   ├── 17_IQ.js
+│   ├── 18_closure.js
+│   ├── 19_closure1.js
+│   ├── 20_API_closure.js
+│   ├── 21_higher_function.js
+│   └── 22_pure_fu.js
 ├── chapter_Basics_01/
 │   └── 01_basics.js
 ├── SimpleJavaProject/
 │   └── src/
 │       └── Main.java
-├── 01_arrays.js
 └── README.md
 ```
 
@@ -195,7 +225,10 @@ Handling user input in Node.js using readline, prompt-sync, and other input meth
 JavaScript loops including for loops, while loops, do-while loops, continue statements, and interview-style loop problems.
 
 **Chapter 11 - Arrays**
-Array creation using literals, `Array()` constructor, `Array.of()`, and `Array.from()`, accessing elements, adding/removing items, splice, indexing, and real-world examples.
+Array creation using literals, `Array()` constructor, `Array.of()`, and `Array.from()`, accessing elements, adding/removing items, splice, indexing, searching, iteration, transforming arrays, slicing, combining, and real-world examples.
+
+**Chapter 12 - Functions**
+Functions with and without parameters, return types, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, closures, higher-order functions, pure functions, and interview-style questions.
 
 ## Topics Covered
 
@@ -218,6 +251,16 @@ Array creation using literals, `Array()` constructor, `Array.of()`, and `Array.f
 - Loop interview questions and patterns
 - Arrays: creation, access, adding/removing elements
 - Array methods: splice, indexing, `Array.of()`, `Array.from()`
+- Array searching, iteration, and transformation
+- Array slicing, combining, and concat
+- Functions: declaration, parameters, and return types
+- Function expressions and arrow functions
+- IIFE (Immediately Invoked Function Expressions)
+- Default parameters and rest parameters
+- Spread operator
+- Scope and closures
+- Higher-order functions and pure functions
+- Function interview questions
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -245,7 +288,14 @@ Array creation using literals, `Array()` constructor, `Array.of()`, and `Array.f
 | `node chapter_11_Arrays/01_array.js` | Run array creation example |
 | `node chapter_11_Arrays/03_Access_array.js` | Run array access example |
 | `node chapter_11_Arrays/04_arrays.Adding_removing.js` | Run array add/remove example |
-| `node 01_arrays.js` | Run array literals and constructor example |
+| `node chapter_11_Arrays/07_searching.js` | Run array searching example |
+| `node chapter_11_Arrays/09_transformArray.js` | Run array transformation example |
+| `node chapter_12_Functions/02_basicFunction.js` | Run basic function example |
+| `node chapter_12_Functions/08_arrowfunction.js` | Run arrow function example |
+| `node chapter_12_Functions/10_IIFE.js` | Run IIFE example |
+| `node chapter_12_Functions/13_rest_param_fu.js` | Run rest parameter example |
+| `node chapter_12_Functions/18_closure.js` | Run closure example |
+| `node chapter_12_Functions/21_higher_function.js` | Run higher-order function example |
 
 ## License
 
