@@ -184,6 +184,15 @@ LearnPlaywright/
 │   ├── 20_API_closure.js
 │   ├── 21_higher_function.js
 │   └── 22_pure_fu.js
+├── chapter_13_String/
+│   ├── 01_string.js
+│   ├── 02_String_properties.js
+│   ├── 03_search_check.js
+│   ├── 04_substring.js
+│   ├── 05_transform.js
+│   ├── 06_SC.js
+│   ├── 07_cheat_sheet.js
+│   └── 08_string_methods_cheat_sheet.js
 ├── chapter_Basics_01/
 │   └── 01_basics.js
 ├── SimpleJavaProject/
@@ -230,6 +239,9 @@ Array creation using literals, `Array()` constructor, `Array.of()`, and `Array.f
 **Chapter 12 - Functions**
 Functions with and without parameters, return types, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, closures, higher-order functions, pure functions, and interview-style questions.
 
+**Chapter 13 - String Methods**
+JavaScript String methods including string creation and properties, character access, searching and checking, extracting substrings, case conversion, trimming, replacing, splitting and joining, repeating and padding, concatenation, string conversion, regex methods, unicode handling, and useful string patterns with cheat sheets.
+
 ## Topics Covered
 
 - Playwright basics and test commands
@@ -261,6 +273,17 @@ Functions with and without parameters, return types, function expressions, arrow
 - Scope and closures
 - Higher-order functions and pure functions
 - Function interview questions
+- String methods: creation, properties, and character access
+- String searching: includes, startsWith, endsWith, indexOf, lastIndexOf
+- String extraction: slice, substring, substr
+- String transformation: toUpperCase, toLowerCase, trim
+- String manipulation: replace, replaceAll, split, join
+- String padding and repeating: padStart, padEnd, repeat
+- String concatenation and template literals
+- String to number conversion: parseInt, parseFloat, Number
+- String regex methods: match, search, replace with regex
+- String comparison and locale methods
+- String iteration and spread operator
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -296,6 +319,12 @@ Functions with and without parameters, return types, function expressions, arrow
 | `node chapter_12_Functions/13_rest_param_fu.js` | Run rest parameter example |
 | `node chapter_12_Functions/18_closure.js` | Run closure example |
 | `node chapter_12_Functions/21_higher_function.js` | Run higher-order function example |
+| `node chapter_13_String/01_string.js` | Run string basics example |
+| `node chapter_13_String/03_search_check.js` | Run string search methods example |
+| `node chapter_13_String/04_substring.js` | Run substring extraction example |
+| `node chapter_13_String/05_transform.js` | Run string transformation example |
+| `node chapter_13_String/07_cheat_sheet.js` | Run string methods cheat sheet |
+| `node chapter_13_String/08_string_methods_cheat_sheet.js` | Run complete string methods cheat sheet |
 
 ## License
 
