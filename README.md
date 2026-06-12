@@ -198,6 +198,7 @@ LearnPlaywright/
 ├── SimpleJavaProject/
 │   └── src/
 │       └── Main.java
+├── INTERVIEW_QUESTIONS.js
 └── README.md
 ```
 
@@ -241,6 +242,24 @@ Functions with and without parameters, return types, function expressions, arrow
 
 **Chapter 13 - String Methods**
 JavaScript String methods including string creation and properties, character access, searching and checking, extracting substrings, case conversion, trimming, replacing, splitting and joining, repeating and padding, concatenation, string conversion, regex methods, unicode handling, and useful string patterns with cheat sheets.
+
+## Interview Questions
+
+The `INTERVIEW_QUESTIONS.js` file contains 65 coding interview questions (5 questions per chapter) covering all topics from Chapters 01-13. These questions are designed to test understanding of JavaScript fundamentals and prepare for technical interviews.
+
+Topics covered in interview questions:
+- Basics: FizzBuzz, string reversal, process object
+- Variables: var/let/const differences, hoisting, TDZ
+- Identifiers: naming conventions, case sensitivity, Unicode
+- Literals: typeof quirks, null vs undefined, BigInt, NaN
+- Operators: strict vs loose equality, short-circuit evaluation
+- Conditionals: grade calculators, leap year, HTTP status codes
+- Switch: fall-through, grouped cases, switch(true) pattern
+- User Input: validation, type conversion, profile creation
+- Loops: multiplication tables, digit sums, retry mechanisms, patterns
+- Arrays: filter, reduce, map, flattening, set operations
+- Functions: hoisting, IIFE, closures, higher-order functions, pure functions
+- Strings: palindrome, anagram, character frequency, URL parsing
 
 ## Topics Covered
 
@@ -325,6 +344,7 @@ JavaScript String methods including string creation and properties, character ac
 | `node chapter_13_String/05_transform.js` | Run string transformation example |
 | `node chapter_13_String/07_cheat_sheet.js` | Run string methods cheat sheet |
 | `node chapter_13_String/08_string_methods_cheat_sheet.js` | Run complete string methods cheat sheet |
+| `node INTERVIEW_QUESTIONS.js` | View all 65 interview questions |
 
 ## License
 
