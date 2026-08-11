@@ -3,5 +3,5 @@ let str = "Login_Test_Pass_001";
 console.log(str.slice(0, 5)); // 0,4 
 console.log(str.slice(11));
 
-console.log(str.substring(2, 4));
+console.log(str.substring(2, 4)); //from 2 to 4-1
 
