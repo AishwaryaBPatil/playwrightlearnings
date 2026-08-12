@@ -294,12 +294,25 @@ LearnPlaywright/
 │   ├── 02_EX2.js
 │   ├── 03_EX3.js
 │   └── 04_EX4.js
+├── chapter_26_TypeScript/
+│   ├── 01_TS_HelloWorld.ts
+│   ├── 01_TS_HelloWorld.js
+│   ├── 02_Part1.ts
+│   ├── 02_TS.js
+│   ├── 03_Part2.ts
+│   ├── 04_Part3.ts
+│   ├── 05_Part4.ts
+│   ├── 06_IQ.ts
+│   └── 07_IQ.ts
 ├── chapter_Basics_01/
 │   └── 01_basics.js
 ├── SimpleJavaProject/
 │   └── src/
 │       └── Main.java
 ├── INTERVIEW_QUESTIONS.js
+├── package.json
+├── package-lock.json
+├── tsconfig.json
 └── README.md
 ```
 
@@ -380,6 +393,9 @@ Polymorphism through method overriding in JavaScript classes.
 **Chapter 25 - OOP Interview Questions**
 Object-oriented programming interview questions and exercises covering classes, objects, encapsulation, and inheritance.
 
+**Chapter 26 - TypeScript**
+Getting started with TypeScript: typed variables, function parameter/return types, compiling `.ts` files with `tsc`, and running them with `ts-node` or natively in Node.js.
+
 ## Interview Questions
 
 The `INTERVIEW_QUESTIONS.js` file contains 65 coding interview questions (5 questions per chapter) covering all topics from Chapters 01-13. These questions are designed to test understanding of JavaScript fundamentals and prepare for technical interviews.
@@ -451,6 +467,7 @@ Topics covered in interview questions:
 - Classes, constructors, static methods, private fields
 - Encapsulation, inheritance, and polymorphism
 - OOP interview questions
+- TypeScript basics: typed variables, functions, and compilation
 - VS Code keyboard shortcuts for Windows
 
 ## Running Examples
@@ -510,6 +527,9 @@ Topics covered in interview questions:
 | `node chapter_23_inheritance/01_single_inheritance.js` | Run single inheritance example |
 | `node chapter_24_Plolymorphism/01_method_overriding.js` | Run method overriding example |
 | `node chapter_25_OppsIQ/01_EX1.js` | Run OOP interview question |
+| `node chapter_26_TypeScript/02_Part1.ts` | Run TypeScript example with Node's native TS support |
+| `node chapter_26_TypeScript/06_IQ.ts` | Run TypeScript interview question |
+| `npx ts-node chapter_26_TypeScript/02_Part1.ts` | Run TypeScript example with ts-node |
 | `node INTERVIEW_QUESTIONS.js` | View all 65 interview questions |
 
 ## License
