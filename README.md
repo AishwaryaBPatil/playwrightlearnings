@@ -58,7 +58,13 @@ LearnPlaywright/
 ├── chapter_01_Basics/
 │   ├── 01_basics.js
 │   ├── 02_JS.js
-│   └── 03_JS_commands.js
+│   ├── 03_JS_commands.js
+│   ├── 04_IQ1.js
+│   ├── 05_IQ2.js
+│   ├── 06_IQ3.js
+│   ├── 07_IQ4.js
+│   ├── 08_IQ5.js
+│   └── README.md
 ├── chapter_02_JavaScript_Concepts/
 │   └── javascript_basics.js
 ├── chapter_03_identifier_Literals/
@@ -129,11 +135,13 @@ LearnPlaywright/
 │   ├── 06_IQ.js
 │   ├── 07_IQ2.js
 │   ├── 08_IQ3.js
-│   └── 09_IQ4.js
+│   ├── 09_IQ4.js
+│   └── README.md
 ├── chapter_09_userInput/
 │   ├── 01_userinput.js
 │   ├── 02_nodeReadline.js
-│   └── 03_prompt_sync.js
+│   ├── 03_prompt_sync.js
+│   └── README.md
 ├── chapter_10_loops/
 │   ├── 01_forLoop.js
 │   ├── 02_for_loop.js
@@ -191,8 +199,9 @@ LearnPlaywright/
 │   ├── 04_substring.js
 │   ├── 05_transform.js
 │   ├── 06_SC.js
-│   ├── 07_cheat_sheet.js
-│   └── 08_string_methods_cheat_sheet.js
+│   ├── 08_string_methods_cheat_sheet.js
+│   ├── 09_String_rev_palindrome.js
+│   └── 10_Anagram.js
 ├── chapter_14_Object.js/
 │   ├── 01_object.js
 │   ├── 02_objects2.js
@@ -449,6 +458,7 @@ Topics covered in interview questions:
 | Command | Description |
 |---------|-------------|
 | `node chapter_01_Basics/01_basics.js` | Run basic Playwright example |
+| `node chapter_01_Basics/04_IQ1.js` | Run basics interview question |
 | `node chapter_02_JavaScript_Concepts/javascript_basics.js` | Run JavaScript basics |
 | `node chapter_03_identifier_Literals/01_identifier_rules.js` | Run identifier rules example |
 | `node chapter_04_javascriptBasis/01_variable.js` | Run variable example |
@@ -481,8 +491,8 @@ Topics covered in interview questions:
 | `node chapter_13_String/03_search_check.js` | Run string search methods example |
 | `node chapter_13_String/04_substring.js` | Run substring extraction example |
 | `node chapter_13_String/05_transform.js` | Run string transformation example |
-| `node chapter_13_String/07_cheat_sheet.js` | Run string methods cheat sheet |
 | `node chapter_13_String/08_string_methods_cheat_sheet.js` | Run complete string methods cheat sheet |
+| `node chapter_13_String/09_String_rev_palindrome.js` | Run string reversal / palindrome example |
 | `node chapter_14_Object.js/01_object.js` | Run object basics example |
 | `node chapter_14_Object.js/06_ob_json.js` | Run object to JSON conversion example |
 | `node chapter_14_Object.js/09_obj_decon.js` | Run object destructuring example |
@@ -503,7 +513,5 @@ Topics covered in interview questions:
 | `node INTERVIEW_QUESTIONS.js` | View all 65 interview questions |
 
 ## License
-
-This repository is for educational purposes only.
 
 This repository is for educational purposes only.

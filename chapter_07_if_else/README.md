@@ -22,6 +22,7 @@ Conditional statements including basic if/else, nested conditions, real-world QA
 | `14_Bug_severity.js` | Bug severity classification |
 | `15_BuildHealth_reporter.js` | Build health reporting logic |
 | `16_Login_Logout.js` | Login/logout state management |
+| `17_triangle.js` | Triangle type classification |
 
 ## How to Run
 
@@ -42,4 +43,5 @@ node 13_passfail_verdict.js
 node 14_Bug_severity.js
 node 15_BuildHealth_reporter.js
 node 16_Login_Logout.js
+node 17_triangle.js
 ```
